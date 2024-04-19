@@ -17,6 +17,9 @@ h2 {
   @apply font-varelaRegular md:text-[3rem] text-[2.5rem] leading-[3.25rem] text-white
 }
 
+.navBarButtons {
+  @apply font-varelaRound md:text-[1.5rem] text-[1.8rem] leading-[3.25rem] text-purple
+}
 
 
 
@@ -34,7 +37,7 @@ h2 {
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: black;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;

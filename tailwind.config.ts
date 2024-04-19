@@ -27,7 +27,7 @@ const config: Config = {
         'root-pattern': "url('/assets/root-bg.png')",
       },
       colors: {
-        'gold': '#DCBF77',
+        'purple': '#6235BD',
         // shadcn ui colors
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
