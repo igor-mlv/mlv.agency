@@ -12,3 +12,8 @@ export const navbarLinks = [
         title: "Contact Us",
     },
 ];
+
+export const heroSection = {
+    title: "We don't just build websites -  we build the future of your business online.",
+    btnText: "Get free quote",
+};

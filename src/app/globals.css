@@ -10,7 +10,7 @@
 
 
 h1 {
-  @apply font-varelaRound md:text-[3rem] text-[2.5rem] leading-[3.25rem] text-white
+  @apply font-varelaRegular md:text-[3rem] text-[2.5rem] leading-[3.25rem] text-white
 }
 
 h2 {
@@ -20,6 +20,12 @@ h2 {
 .navBarButtons {
   @apply font-varelaRound md:text-[1.5rem] text-[1.8rem] leading-[3.25rem] text-purple
 }
+
+.button {
+  @apply font-varelaRound md:text-[1.5rem] text-[1.3rem] leading-[3.25rem] text-white
+}
+
+
 
 
 

@@ -24,7 +24,7 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        'root-pattern': "url('/assets/root-bg.png')",
+        'earth': "url('/assets/heroSection/earth.png')",
       },
       colors: {
         'purple': '#6235BD',

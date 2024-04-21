@@ -6,7 +6,7 @@ import { Button } from "../../ui/button";
 
 export default function NavBar() {
     return (
-        <nav className="flex justify-between items-center w-full max-w-[1280px] h-[90px] fixed top-0 bg-primary">
+        <nav className="flex justify-between items-center w-full max-w-[1280px] h-[90px] fixed top-0 bg-black bg-opacity-100 z-10">
             <div>
                 <Image
                     width={100}
