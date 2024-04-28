@@ -10,7 +10,7 @@
 
 
 h1 {
-  @apply font-varelaRegular md:text-[3rem] text-[2.5rem] leading-[3.25rem] text-white
+  @apply font-varelaRegular md:text-[3rem] text-[2.2rem] md:leading-[3.25rem] leading-[3rem] text-white
 }
 
 h2 {

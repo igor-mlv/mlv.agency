@@ -19,7 +19,7 @@ export default function NavBarMobile({ className, navbarLinks }: { className: st
                         alt="hamburgerMenu"
                     />
                 </SheetTrigger>
-                <SheetContent className="bg-primary">
+                <SheetContent className="bg-black">
                     <div className="flex flex-col pt-[100px] pb-[20px]">
                         {navbarLinks.map((link) => (
                             <Button asChild
