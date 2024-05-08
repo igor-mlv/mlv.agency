@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela&family=Varela+Round&display=swap');
 
 @tailwind base;
@@ -10,19 +11,19 @@
 
 
 h1 {
-  @apply font-varelaRegular md:text-[3rem] text-[2.2rem] md:leading-[3.25rem] leading-[3rem] text-white
+  @apply font-interTight md:text-[4rem] text-[2.2rem] md:leading-[120%] leading-[3rem] text-white
 }
 
 h2 {
-  @apply font-varelaRegular md:text-[3rem] text-[2.5rem] leading-[3.25rem] text-white
+  @apply font-interTight md:text-[4rem] text-[2.5rem] leading-[3.25rem] text-white
 }
 
 .navBarButtons {
-  @apply font-varelaRound md:text-[1.5rem] text-[1.8rem] leading-[3.25rem] text-purple
+  @apply font-varelaRound md:text-[1.5rem] text-[1.8rem] leading-[3.25rem] text-white
 }
 
 .button {
-  @apply font-varelaRound md:text-[1.5rem] text-[1.3rem] leading-[3.25rem] text-white
+  @apply font-interTight md:text-[1.5rem] text-[1.3rem] leading-[3.25rem] text-white
 }
 
 

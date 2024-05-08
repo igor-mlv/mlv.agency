@@ -17,17 +17,16 @@ const config: Config = {
     },
     fontFamily: {
       varelaRound: ["Varela Round", "sans-serif"],
+      interTight: ["Inter Tight", "sans-serif"],
       varelaRegular: ["Varela", "sans-serif"],
     },
     fontWeight: {
       normal: '400',
     },
     extend: {
-      backgroundImage: {
-        'earth': "url('/assets/heroSection/earth.png')",
-      },
       colors: {
         'purple': '#6235BD',
+        'violet': '#935EFF',
         // shadcn ui colors
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

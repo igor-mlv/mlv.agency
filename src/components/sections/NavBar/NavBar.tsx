@@ -6,11 +6,11 @@ import { Button } from "../../ui/button";
 
 export default function NavBar() {
     return (
-        <nav className="flex justify-between items-center w-full max-w-[1280px] h-[90px] fixed top-0 bg-black bg-opacity-100 z-10">
+        <nav className="fixed top-[25px] flex justify-between items-center w-full max-w-[1280px] h-[62px] px-10 bg-stone-50/5 rounded-[38px] border border-neutral-500 backdrop-blur-lg z-10">
             <div>
                 <Image
-                    width={100}
-                    height={100}
+                    width={30}
+                    height={30}
                     src="/assets/navBar/logo.png"
                     alt="logo"
                 />
@@ -18,12 +18,12 @@ export default function NavBar() {
             <div className="md:block hidden">
                 {navbarLinks.map((link, index) => (
                     <Button asChild
-                        className="navBarButtons"
-                        variant="ghost">
+                        className="navBarButtons hover:text-violet px-0"
+                        variant="default">
                         <Link
                             key={link.id}
                             href={`#${link.id}`}
-                            className={`flex justify-center ${index === navbarLinks.length - 1 ? "mr-0" : "mr-[40px]"}`}>
+                            className={`flex justify-center ${index === navbarLinks.length - 1 ? "mr-0" : "mr-[64px]"}`}>
                             {link.title}
                         </Link>
                     </Button>
