@@ -22,6 +22,7 @@ const config: Config = {
     },
     fontWeight: {
       normal: '400',
+      light: '300',
     },
     extend: {
       colors: {

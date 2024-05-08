@@ -7,7 +7,6 @@ export default function Home() {
       <div className="w-full max-w-[1280px]">
         <NavBar />
         <HeroSection />
-
       </div>
     </div>
   );
