@@ -15,7 +15,11 @@ h1 {
 }
 
 h2 {
-  @apply font-interTight md:text-[4rem] text-[2.5rem] leading-[3.25rem] text-white
+  @apply font-interTight md:text-[4rem] text-[2.5rem] leading-[120%] text-white
+}
+
+p {
+  @apply font-interTight font-light md:text-[2.5rem] text-[2.5rem] leading-[120%] text-white
 }
 
 .navBarButtons {

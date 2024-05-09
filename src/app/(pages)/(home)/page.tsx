@@ -1,3 +1,4 @@
+import AboutUs from "@/components/sections/AboutUs/AboutUs";
 import HeroSection from "@/components/sections/Hero/HeroSection";
 import NavBar from "@/components/sections/NavBar/NavBar";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="w-full max-w-[1280px]">
         <NavBar />
         <HeroSection />
+        <AboutUs />
       </div>
     </div>
   );

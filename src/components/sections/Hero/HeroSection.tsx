@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
     return (
-        <section id="hero" className="relative flex md:flex-row flex-col justify-between mt-[130px] h-[80dvh] max-h-[700px]  items-center px-4">
+        <section id="hero" className="relative flex md:flex-row flex-col justify-between mt-[130px] h-[90dvh] max-h-[700px]  items-center px-4">
             <div className="flex flex-col md:justify-center md:items-start items-center">
                 <h1 className="md:max-w-[1180px] w-full md:text-left text-center">{heroSection.title}</h1>
                 <Button
@@ -17,7 +17,7 @@ export default function HeroSection() {
             <div className="w-[1800px] absolute bottom-[-200px] left-[-300px]">
                 <Image
                     priority
-                    src="/assets/heroSection/Vector7.svg"
+                    src={heroSection.iconUrl}
                     height={720}
                     width={1800}
                     alt="m-vector"
