@@ -18,7 +18,8 @@ export const navbarLinks = [
 export const heroSection = {
     title: "We don't just build websites - we build the future of your business online.",
     btnText: "Get free quote",
-    iconUrl: "/assets/heroSection/Vector7.svg",
+    vectorUrlLargeScreen: "/assets/heroSection/VectorBGLgScreen.svg",
+    vectorUrlSmallScreen: "/assets/heroSection/vectorUrlSmallScreen.svg",
 };
 
 export const aboutUsSection = {
