@@ -1,3 +1,5 @@
+import { list } from "postcss";
+
 export const navbarLinks = [
     {
         id: "aboutUs",
@@ -49,7 +51,7 @@ export const portfolioSection = {
                 text: "(Landing Page Development)"
             },
             {
-                text: "(two weeks)"
+                text: "(Two weeks)"
             },
             {
                 text: "(Fully Managed Hosting)"
@@ -59,4 +61,67 @@ export const portfolioSection = {
         photoBGImgUrl: "/assets/portfolioSection/PhotoBG.png",
         containerBGImgUrl: "/assets/portfolioSection/ContainerBG.png",
     },
+}
+
+export const workStagesSection = {
+    title: "Work stages",
+    stages: [
+        {
+            id: "(1)",
+            title: "Introduction and briefing",
+            list: [
+                "Define website goals and objectives.",
+                "Research target audience and competitors.",
+                "Determine budget and timeline.",
+            ]
+        },
+        {
+            id: "(2)",
+            title: "Design Exploration",
+            list: [
+                "Create wireframes and mockups for website layout.",
+                "Design a visually appealing and user-friendly interface.",
+                "Select color scheme and typography that reflects the brand.",
+                "Ensure responsive design for mobile compatibility.",
+            ]
+        },
+        {
+            id: "(3)",
+            title: "Building Process",
+            list: [
+                "Set up hosting and domain name registration.",
+                "Develop website structure and navigation.",
+                "Integrate e-commerce functionality for ordering products, services online.",
+                "Implement secure payment gateways.",
+                "Add features like search, filters, and shopping cart.",
+            ]
+        },
+        {
+            id: "(4)",
+            title: "Testing Stage",
+            list: [
+                "Perform usability testing to ensure smooth navigation.",
+                "Test functionality across different devices and browsers.",
+                "Check for broken links and errors.",
+                "Test the checkout process and payment gateway.",
+            ]
+        },
+        {
+            id: "(5)",
+            title: "Launch Preparation",
+            list: [
+                "Finalize website content and graphics.",
+                "Set up basic SEO elements like meta tags and keywords.",
+            ]
+        },
+        {
+            id: "(6)",
+            title: "Post-launch Management",
+            list: [
+                "Monitor website performance and traffic using analytics.",
+                "Gather feedback from users and make necessary improvements.",
+                "Update content regularly to keep it fresh and relevant."
+            ]
+        },
+    ]
 }

@@ -26,8 +26,8 @@ const config: Config = {
     },
     extend: {
       colors: {
-        'purple': '#6235BD',
         'violet': '#935EFF',
+        'gray': '#63626B',
         // shadcn ui colors
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
