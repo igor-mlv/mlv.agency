@@ -18,6 +18,10 @@ h2 {
   @apply font-interTight md:text-[4rem] text-[2.5rem] leading-[120%] text-white
 }
 
+h3 {
+  @apply font-interTight md:text-[2.5rem] text-[2.5rem] leading-[120%] text-white
+}
+
 p {
   @apply font-interTight font-light md:text-[2.5rem] text-[2.5rem] leading-[120%] text-white
 }

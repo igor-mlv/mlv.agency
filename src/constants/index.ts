@@ -1,6 +1,6 @@
 export const navbarLinks = [
     {
-        id: "about",
+        id: "aboutUs",
         title: "About Us",
     },
     {
@@ -36,3 +36,27 @@ export const aboutUsSection = {
     igorPhotoTitle: "Founder <span className='text-violet'>Igor Malov</span>",
     igorPhotoAlt: "Founder Igor Malov",
 };
+
+export const portfolioSection = {
+    title: "Latest roject",
+    project: {
+        title: "RenoMotion",
+        paragraph: "Website designed for Renomotion Inc., specializing in transforming bathrooms, basements, and kitchens with innovative designs and quality craftsmanship",
+        btnText: "Visit website",
+        btnUrl: "https://renomotion.com/",
+        description: [
+            {
+                text: "(Landing Page Development)"
+            },
+            {
+                text: "(two weeks)"
+            },
+            {
+                text: "(Fully Managed Hosting)"
+            },
+        ],
+        portfolioImgUrl: "/assets/portfolioSection/Portfolio.png",
+        photoBGImgUrl: "/assets/portfolioSection/PhotoBG.png",
+        containerBGImgUrl: "/assets/portfolioSection/ContainerBG.png",
+    },
+}

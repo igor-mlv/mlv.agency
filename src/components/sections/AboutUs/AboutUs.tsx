@@ -6,10 +6,10 @@ export default function AboutUs() {
     const gridCards = "flex justify-center px-[24px] bg-[#FAF6F6] bg-opacity-[5%] rounded-[23px] border-[#63626B] border-[2px] m-[-4px] border-opacity-0 hover:border-opacity-100 transition"
 
     return (
-        <div className="relative flex flex-col justify-between items-start pt-[100px] ">
+        <section id="aboutUs" className="relative flex flex-col justify-between items-start pt-[100px] ">
             <div className=" absolute w-[426px] h-[426px] top-0 left-[-150px] opacity-20 bg-violet rounded-full blur-[60px] z-0" />
 
-            <h2 className="z-10">{aboutUsSection.title}</h2>
+            <h2 className="z-10 px-2">{aboutUsSection.title}</h2>
 
             <div className="w-full h-[590px] mt-[60px] grid grid-cols-3 grid-rows-2 gap-x-[20px] gap-y-[28px] z-10">
                 <div className={`${gridCards} py-[40px]`}>
@@ -49,7 +49,7 @@ export default function AboutUs() {
                 </div>
 
             </div>
-        </div>
+        </section>
     );
 }
 
