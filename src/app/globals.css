@@ -27,7 +27,7 @@ p {
 }
 
 .navBarButtons {
-  @apply font-varelaRound md:text-[1.5rem] text-[1.8rem] leading-[3.25rem] text-white
+  @apply font-varelaRound md:text-[1.5rem] text-[1.125rem] leading-[3.25rem] text-white
 }
 
 .button {

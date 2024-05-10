@@ -1,35 +1,33 @@
 import { navbarLinks } from "@/constants";
-import NavBarMobile from "./NavBarMobile";
 import Image from "next/image"
 import Link from "next/link";
 import { Button } from "../../ui/button";
 
 export default function NavBar() {
     return (
-        <nav className="fixed top-[25px] flex justify-between items-center w-full max-w-[1280px] h-[62px] px-10 bg-stone-50/5 rounded-[38px] border border-neutral-500 backdrop-blur-lg z-50">
-            <div>
+        <nav className="fixed w-full z-50 top-[25px] start-0 px-2 ">
+            <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto md:px-[40px] px-[20px] md:py-[16px] py-[8px] bg-stone-50/5 rounded-[38px] border border-neutral-500 backdrop-blur-lg border-collapse">
+
                 <Image
                     width={30}
                     height={30}
                     src="/assets/navBar/logo.png"
                     alt="logo"
                 />
-            </div>
-            <div className="md:block hidden">
-                {navbarLinks.map((link, index) => (
-                    <Button asChild
-                        className="navBarButtons hover:text-violet px-0"
-                        variant="default">
-                        <Link
+
+                <div className="flex justify-center items-center">
+                    {navbarLinks.map((link, index) => (
+                        <Button asChild
                             key={link.id}
-                            href={`#${link.id}`}
-                            className={`flex justify-center ${index === navbarLinks.length - 1 ? "mr-0" : "mr-[64px]"}`}>
-                            {link.title}
-                        </Link>
-                    </Button>
-                ))}
+                            className={` ${index === navbarLinks.length - 1 ? "mr-0 " : "mr-[64px] md:inline-flex hidden"} navBarButtons hover:text-violet px-0`}
+                            variant="default">
+                            <Link href={`#${link.id}`}>
+                                {link.title}
+                            </Link>
+                        </Button>
+                    ))}
+                </div>
             </div>
-            <NavBarMobile navbarLinks={navbarLinks} className="md:hidden block pr-[30px]" />
         </nav>
     );
 }
