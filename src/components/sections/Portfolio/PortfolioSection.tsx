@@ -1,6 +1,7 @@
 import { portfolioSection } from "@/constants";
 import Image from 'next/image';
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function PortfolioSection() {
     return (
@@ -21,11 +22,13 @@ export default function PortfolioSection() {
                     <div className="pt-[50px]">
                         <h3>{portfolioSection.project.title}</h3>
                         <p className="text-[18px] pt-[8px]">{portfolioSection.project.paragraph}</p>
-                        <Button
-                            variant="default"
-                            className="bg-violet w-[260px] h-[45px] px-[60px] py-2 my-[40px] rounded-[55px] z-10 hover:border-[2px] border-violet button">
-                            {portfolioSection.project.btnText}
-                        </Button>
+                        <Link href={portfolioSection.project.btnUrl} target="_blank" rel="noopener noreferrer">
+                            <Button
+                                variant="default"
+                                className="bg-violet w-[260px] h-[45px] px-[60px] py-2 my-[40px] rounded-[55px] z-10 hover:border-[2px] border-violet button">
+                                {portfolioSection.project.btnText}
+                            </Button>
+                        </Link>
                     </div>
 
                     <div className="flex flex-col">

@@ -43,7 +43,7 @@ export const portfolioSection = {
         title: "RenoMotion",
         paragraph: "Website designed for Renomotion Inc., specializing in transforming bathrooms, basements, and kitchens with innovative designs and quality craftsmanship",
         btnText: "Visit website",
-        btnUrl: "https://renomotion.com/",
+        btnUrl: "https://www.renomotion.ca/",
         description: [
             {
                 text: "(Landing Page Development)"
