@@ -5,7 +5,7 @@ export default function WorkStagesSection() {
     return (
         <section id="portfolio" className="relative flex flex-col mt-[150px] px-2">
             <h2>{workStagesSection.title}</h2>
-            <div className="w-full flex flex-col mt-[60px] md:space-y-[40px] space-y-[16px]">
+            <div className="w-full flex flex-col md:mt-[60px] mt-[32px] md:space-y-[40px] space-y-[16px]">
                 <div className="w-full flex md:flex-row flex-col justify-start md:space-x-[240px] md:space-y-[0px] space-y-[16px]">
                     {workStagesSection.stages.slice(0, 2).map((item) => (
                         workStagesCard(item)

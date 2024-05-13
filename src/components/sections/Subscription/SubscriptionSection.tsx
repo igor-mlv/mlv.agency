@@ -5,7 +5,7 @@ export default function SubscriptionSection() {
         <section id="subscription" className="relative flex flex-col mt-[150px] px-2">
             <div className="relative mt-[60px] w-full flex justify-center items-center flex-col md:space-y-[16px] space-y-[100px] ">
                 {subscriptionSection.map((card) => (
-                    <div className="w-full flex md:flex-row flex-col items-center justify-between md:px-[24px] md:py-[16px] md:bg-[#FAF6F6] md:bg-opacity-[5%] md:rounded-[24px] md:space-y-0 space-y-[24px]">
+                    <div key={card.id} className="w-full flex md:flex-row flex-col items-center justify-between md:px-[24px] md:py-[16px] md:bg-[#FAF6F6] md:bg-opacity-[5%] md:rounded-[24px] md:space-y-0 space-y-[24px]">
                         <div className="flex justify-center items-center">
                             <div className="flex items-baseline w-[180px]">
                                 <p className="md:text-[2.5rem] text-[2rem]">{card.price}</p>
