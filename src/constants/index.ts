@@ -126,3 +126,47 @@ export const workStagesSection = {
         },
     ]
 }
+
+export const servicesSection = {
+    title: "Services",
+    cards: [
+        {
+            id: 1,
+            title: "Landing Page Package",
+            startsFrom: "Starts From",
+            price: "$2490",
+            list: [
+                "Development of one web page",
+                "Responsive design for mobile compatibility",
+                "Basic SEO optimization",
+            ]
+        },
+        {
+            id: 2,
+            title: "Basic Website Package",
+            startsFrom: "Starts From",
+            price: "$4990",
+            list: [
+                "Development of multiple web pages",
+                "Responsive design for mobile compatibility",
+                "Basic SEO optimization",
+            ]
+        },
+        {
+            id: 3,
+            title: "E-commerce Website Package",
+            startsFrom: "Starts From",
+            price: "$7990",
+            list: [
+                "Custom design and development tailored to e-commerce needs",
+                "Responsive design for mobile compatibility",
+                "Advanced e-commerce features such as product catalog, shopping cart, and checkout system",
+                "Integration of secure payment gateways",
+                "Product management system for easy inventory management",
+                "Enhanced SEO optimization for product pages",
+            ]
+        },
+    ],
+    btnText: "Contact",
+
+}

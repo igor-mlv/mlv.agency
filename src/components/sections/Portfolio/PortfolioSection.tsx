@@ -25,7 +25,7 @@ export default function PortfolioSection() {
                         <Link href={portfolioSection.project.btnUrl} target="_blank" rel="noopener noreferrer">
                             <Button
                                 variant="default"
-                                className="bg-violet w-[260px] h-[45px] px-[60px] py-2 my-[40px] rounded-[55px] z-10 hover:border-[2px] border-violet button">
+                                className="bg-violet w-[260px] h-[45px] px-[60px] py-2 my-[40px] rounded-[55px] z-10 hover:border-[2px] border-violet transition duration-500 button">
                                 {portfolioSection.project.btnText}
                             </Button>
                         </Link>

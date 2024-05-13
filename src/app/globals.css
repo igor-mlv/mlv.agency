@@ -26,6 +26,10 @@ h4 {
   @apply font-interTight font-light md:text-[2.5rem] text-[1.5rem] leading-[120%] text-white
 }
 
+h5 {
+  @apply font-interTight md:text-[1.5rem] text-[1rem] leading-[120%] text-white
+}
+
 h6 {
   @apply font-interTight text-[1.125rem] leading-[120%] text-violet
 }

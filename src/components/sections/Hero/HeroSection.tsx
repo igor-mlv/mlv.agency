@@ -9,7 +9,7 @@ export default function HeroSection() {
                 <h1 className="md:max-w-[1180px] w-full text-left z-10">{heroSection.title}</h1>
                 <Button
                     variant="default"
-                    className="bg-violet md:w-[260px] w-[156px] h-[45px] md:px-[60px] px-[24px] md:my-[45px] my-[16px] rounded-[55px] z-10 hover:border-[2px] border-violet button">
+                    className="bg-violet md:w-[260px] w-[156px] h-[45px] md:px-[60px] px-[24px] md:my-[45px] my-[16px] rounded-[55px] z-30 hover:border-[2px] border-violet transition duration-500 button">
                     {heroSection.btnText}
                 </Button>
             </div>
