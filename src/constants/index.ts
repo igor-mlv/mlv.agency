@@ -170,3 +170,36 @@ export const servicesSection = {
     btnText: "Contact",
 
 }
+
+export const subscriptionSection = [
+    {
+        id: 1,
+        title: "Self-Management Plan",
+        price: "$0",
+        month: "/month",
+        list: [
+            "Transfer all website files and access to you for self-management.",
+            "Full access to website files and backend, allowing you to manage and update your website independently."
+        ],
+    },
+    {
+        id: 2,
+        title: "Fully Managed Hosting Plan",
+        price: "~$99",
+        month: "/month",
+        list: [
+            "We handle everything from managing website files to server management and maintenance.",
+            "Comprehensive management of your website, ensuring optimal performance and security, with regular backups and updates.",
+        ],
+    },
+    {
+        id: 3,
+        title: "Pro Plan with SEO Optimization",
+        price: "~$390",
+        month: "/month",
+        list: [
+            "Enhance your website's visibility with professional SEO optimization.",
+            "Tailored SEO strategies to improve search engine rankings, increase organic traffic, and boost your online presence.",
+        ],
+    },
+]
