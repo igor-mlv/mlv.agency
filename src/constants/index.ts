@@ -256,3 +256,9 @@ export const footer = {
     title: "MLV Web",
     email: "test@gmail.com",
 }
+
+export const privacyPolicy = {
+    nameOfCompany: "MLV Web Inc.",
+    email: "mlvweb@gmail.com",
+    urlToHomePage: "https://www.mlvweb.com",
+}
