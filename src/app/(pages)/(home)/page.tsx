@@ -1,4 +1,6 @@
+
 import AboutUs from "@/components/sections/AboutUs/AboutUs";
+import ContactUsSection from "@/components/sections/ContacUs/ContactUsSection";
 import HeroSection from "@/components/sections/Hero/HeroSection";
 import NavBar from "@/components/sections/NavBar/NavBar";
 import PortfolioSection from "@/components/sections/Portfolio/PortfolioSection";
@@ -17,6 +19,7 @@ export default function Home() {
         <WorkStagesSection />
         <ServicesSection />
         <SubscriptionSection />
+        <ContactUsSection />
       </div>
     </div>
   );

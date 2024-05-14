@@ -203,3 +203,29 @@ export const subscriptionSection = [
         ],
     },
 ]
+
+export const contactUsSection = {
+    title: "Let's build something <span className='text-violet'>special</span> together",
+}
+
+export const contactUsForm = {
+    title: "Discuss the project",
+    paragraph: "(contact us at any time)",
+    sociaMediaBtns: [
+        {
+            iconSrc: "/assets/conatcUsForm/telegramIcon.svg",
+            btnText: "Telegram",
+            alt: "Contact us via Telegram",
+            width: "w-[164px]",
+            href: "https://t.me/igorMLV"
+        },
+        {
+            iconSrc: "/assets/conatcUsForm/mailIcon.svg",
+            btnText: "Mail",
+            alt: "Contact us via Mail",
+            width: "w-[130px]",
+            href: "mailto: test@gmail.com"
+
+        },
+    ],
+}
