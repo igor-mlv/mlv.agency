@@ -225,7 +225,29 @@ export const contactUsForm = {
             alt: "Contact us via Mail",
             width: "w-[130px]",
             href: "mailto: test@gmail.com"
-
         },
     ],
+    inputFields: [
+        {
+            name: "fullName",
+            placeholder: "Your Name",
+        },
+        {
+            name: "email",
+            placeholder: "Your email: xyz@gmail.com",
+        },
+        {
+            name: "phoneNumber",
+            placeholder: "Your phone: +1 234 567 89 10",
+        },
+        {
+            name: "industry",
+            placeholder: "Industry: e.g. E-commerce",
+        },
+    ],
+    textArea: {
+        name: "description",
+        placeholder: "Tell us about your dream website",
+    },
+    btnText: "Submit",
 }
