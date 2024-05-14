@@ -12,13 +12,6 @@ import WorkStagesSection from "@/components/sections/WorkStages/WorkStagesSectio
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <AboutUs />
-      <PortfolioSection />
-      <WorkStagesSection />
-      <ServicesSection />
-      <SubscriptionSection />
-      <ContactUsSection />
     </>
   );
 }

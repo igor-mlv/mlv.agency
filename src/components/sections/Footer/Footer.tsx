@@ -1,14 +1,19 @@
 import { footer } from '@/constants';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
     return (
         <footer id="footer" className="relative flex flex-col pt-[50px] px-2 pb-2">
-            <div className="w-full flex md:flex-row flex-col-reverse justify-between md:items-center items-start">
-                <div className="space-y-[16px] md:">
-                    <h2>{footer.title}</h2>
-                    <p className="text-gray text-[18px]">Privacy Policy</p>
+            <div className="w-full flex md:flex-row flex-col-reverse justify-between md:items-center items-start z-10">
+                <div className="space-y-[16px]">
+                    <h2 className="leading-none">{footer.title}</h2>
+
+                    <Link href="/privacyPolicy" target="_blank" rel="noopener noreferrer">
+                        <p className="text-gray text-[18px] mt-[16px]">Privacy Policy</p>
+                    </Link>
+
                     <p className="text-gray text-[18px]">© {currentYear} MLV Web Inc. All rights reserved.</p>
                 </div>
                 <div className="md:block hidden">
@@ -17,7 +22,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="w-[1444px] h-[1121] absolute top-[-200px]">
+            <div className="w-[1444px] h-[1121] absolute top-[-200px] z-0">
                 <Image
                     src="/assets/footer/footerVector.svg"
                     width={1444}

@@ -65,7 +65,7 @@ export default function ContactUsForm() {
 
 
     return (
-        <div className="md:w-[412px] w-full bg-[#FAF6F6] bg-opacity-[5%] rounded-[24px] px-[24px] py-[40px] space-y-[24px]">
+        <div className="md:w-[412px] w-full bg-[#FAF6F6] bg-opacity-[5%] rounded-[24px] px-[24px] py-[40px] space-y-[24px] z-10">
             <div>
                 <h4>{contactUsForm.title}</h4>
                 <p className="md:text-[18px] text-[16px] text-gray">{contactUsForm.paragraph}</p>
@@ -129,7 +129,12 @@ export default function ContactUsForm() {
                             </FormItem>
                         )}
                     />
-                    <p className="md:text-[16px] text-[14px] text-center text-gray">By clicking 'Submit,' you agree to our Privacy Policy.</p>
+                    <p className="md:text-[16px] text-[14px] text-center text-gray z-30">
+                        By clicking 'Submit,' you agree to our
+                        <Link href="/privacyPolicy" target="_blank" rel="noopener noreferrer">
+                            <span className="text-white text-opacity-70"> Privacy Policy</span>
+                        </Link>
+                    </p>
 
                     <div className="w-full flex justify-center pt-[16px]">
                         <Button
