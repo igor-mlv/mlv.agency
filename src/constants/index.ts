@@ -251,3 +251,8 @@ export const contactUsForm = {
     },
     btnText: "Submit",
 }
+
+export const footer = {
+    title: "MLV Web",
+    email: "test@gmail.com",
+}

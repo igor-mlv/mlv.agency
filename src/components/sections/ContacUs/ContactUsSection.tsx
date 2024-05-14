@@ -6,7 +6,7 @@ export default function ContactUsSection() {
     return (
         <section id="contact" className="relative flex flex-col pt-[150px] px-2">
 
-            <div className="w-full flex md:flex-row flex-col justify-around md:space-y-0 space-y-[40px]">
+            <div className="w-full flex md:flex-row flex-col justify-around items-center md:space-y-0 space-y-[40px]">
                 <h2 className="z-10 w-full max-w-[630px]">{parse(contactUsSection.title)}</h2>
 
                 <ContactUsForm />
