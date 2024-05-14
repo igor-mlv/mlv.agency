@@ -1,5 +1,6 @@
 import { servicesSection } from "@/constants";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function ServicesSection() {
     return (
@@ -30,7 +31,9 @@ export default function ServicesSection() {
                                 <Button
                                     variant="default"
                                     className="bg-violet md:w-[260px] w-[156px] h-[45px] md:px-[60px] px-[24px] md:my-[45px] my-[16px] rounded-[55px] z-30 hover:border-[2px] transition-all duration-500 border-violet button">
-                                    {servicesSection.btnText}
+                                    <Link href="#contact">
+                                        {servicesSection.btnText}
+                                    </Link>
                                 </Button>
                                 <div className="absolute top-[10px] w-[312px] h-[98px] opacity-50 bg-violet rounded-full blur-[50px]" />
                             </div>
