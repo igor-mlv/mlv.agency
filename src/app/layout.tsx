@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "@/components/sections/NavBar/NavBar";
 import Footer from "@/components/sections/Footer/Footer";
+import { Toaster } from "@/components/ui/toaster"
+
 
 
 export const metadata: Metadata = {
@@ -20,7 +22,8 @@ export default function RootLayout({
         <div className="flex justify-center w-full overflow-hidden min-w-[380px] bg-[#111113]">
           <div className="w-full max-w-[1280px]">
             <NavBar />
-            {children}
+            <main>{children}</main>
+            <Toaster />
             <Footer />
           </div>
         </div>

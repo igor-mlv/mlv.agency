@@ -22,12 +22,13 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="w-[1444px] h-[1121] absolute top-[-200px] z-0">
+            <div className="w-[1400px] h-[300px] absolute top-[-100px] z-0 overflow-hidden">
                 <Image
                     src="/assets/footer/footerVector.svg"
                     width={1444}
-                    height={1121}
-                    alt="footer vector" />
+                    height={300}
+                    alt="footer vector"
+                />
             </div>
 
         </footer>

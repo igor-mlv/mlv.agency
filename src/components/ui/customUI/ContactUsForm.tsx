@@ -15,6 +15,8 @@ import {
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
+import { useToast } from "@/components/ui/use-toast"
+
 import Image from "next/image"
 
 import { contactUsForm } from "@/constants"
@@ -38,18 +40,25 @@ export default function ContactUsForm() {
         },
     })
 
+    const { toast } = useToast();
+
     async function onSubmit(values: z.infer<typeof formSchema>) {
         // ✅ This will be type-safe and validated.
         const result = await sendEmail(values);
 
         if (result?.success) {
-            console.log('Email sent successfully');
-            //reset form
-            return
+            toast({
+                title: "Form has been sent ✅",
+                description: "We will be in touch with you shortly.",
+            });
+            form.reset();
+            return;
         }
 
-        console.log(result?.error);
-        console.log('Email not sent');
+        toast({
+            title: "Uh oh! Something went wrong 😱",
+            description: "Please try again later.",
+        });
     }
 
 
@@ -66,7 +75,7 @@ export default function ContactUsForm() {
                         <Button
                             variant="default"
                             className={`${btn.width} px-[24px] py-[8px] bg-white hover:bg-white bg-opacity-5 hover:bg-opacity-5 rounded-[24px] border-[2px] hover:border-opacity-100 border-opacity-0 border-gray transition duration-200`}>
-                            <div className="w-full flex justify-between">
+                            <div className="w-full flex justify-between space-x-[8px]">
                                 <Image
                                     width={23}
                                     height={19}
