@@ -1,5 +1,5 @@
 import { workStagesSection } from "@/constants";
-import workStagesCard from "./WorkStagesCard";
+import workStagesCard from "@/components/sections/WorkStages/workStagesCard";
 
 export default function WorkStagesSection() {
     return (

@@ -128,7 +128,7 @@ export default function ContactUsForm() {
                         )}
                     />
                     <p className="md:text-[16px] text-[14px] text-center text-gray z-30">
-                        By clicking 'Submit,' you agree to our
+                        By clicking &apos;Submit&apos;, you agree to our
                         <Link href="/privacyPolicy" target="_blank" rel="noopener noreferrer">
                             <span className="text-white text-opacity-70"> Privacy Policy</span>
                         </Link>

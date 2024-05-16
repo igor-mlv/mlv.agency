@@ -18,7 +18,7 @@ export default function Home() {
         <h2>Privacy Policy</h2>
         <h5>Last updated May 01, 2024</h5>
 
-        <p className="mt-[100px] text-[24px]">This privacy notice for {privacyPolicy.nameOfCompany} ("we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:<br /><br />
+        <p className="mt-[100px] text-[24px]">This privacy notice for {privacyPolicy.nameOfCompany} (&apos;we,&apos; &apos;us,&apos; or &apos;our&apos;), describes how and why we might collect, store, use, and/or share (&apos;process&apos;) your information when you use our services (&apos;Services&apos;), such as when you:<br /><br />
 
           Visit our website at {privacyPolicy.urlToHomePage}, or any website of ours that links to this privacy notice<br /><br />
 
@@ -85,11 +85,11 @@ export default function Home() {
 
           The information we collect includes:<br /><br />
 
-          Log and Usage Data. Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called "crash dumps"), and hardware settings).<br /><br />
+          Log and Usage Data. Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called &apos;crash dumps&apos;), and hardware settings).<br /><br />
 
           Device Data. We collect device data such as information about your computer, phone, tablet, or other device you use to access the Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, Internet service provider and/or mobile carrier, operating system, and system configuration information.<br /><br />
 
-          Location Data. We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.<br /><br />
+          Location Data. We collect location data such as information about your device&apos;s location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.<br /><br />
         </p>
 
         <h3 className="mt-[100px] md:text-[2.5rem] text-[2rem] text-gray">2. HOW DO WE PROCESS YOUR INFORMATION?</h3>
@@ -102,7 +102,7 @@ export default function Home() {
 
           To respond to user inquiries/offer support to users. We may process your information to respond to your inquiries and solve any potential issues you might have with the requested service.<br /><br />
 
-          To send you marketing and promotional communications. We may process the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt out of our marketing emails at any time. For more information, see "WHAT ARE YOUR PRIVACY RIGHTS?" below.<br /><br />
+          To send you marketing and promotional communications. We may process the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt out of our marketing emails at any time. For more information, see &apos;WHAT ARE YOUR PRIVACY RIGHTS?&apos; below.<br /><br />
         </p>
 
         <h3 className="mt-[100px] md:text-[2.5rem] text-[2rem] text-gray">3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?</h3>
@@ -140,7 +140,7 @@ export default function Home() {
         <p className="mt-[10px] text-[24px]">
           In Short: We may share information in specific situations described in this section and/or with the following categories of third parties.<br /><br />
 
-          Vendors, Consultants, and Other Third-Party Service Providers. We may share your data with third-party vendors, service providers, contractors, or agents ("third parties") who perform services for us or on our behalf and require access to such information to do that work. The categories of third parties we may share personal information with are as follows:<br /><br />
+          Vendors, Consultants, and Other Third-Party Service Providers. We may share your data with third-party vendors, service providers, contractors, or agents (&apos;third parties&apos;) who perform services for us or on our behalf and require access to such information to do that work. The categories of third parties we may share personal information with are as follows:<br /><br />
 
           Data Analytics Services<br /><br />
 
@@ -173,22 +173,22 @@ export default function Home() {
         <p className="mt-[10px] text-[24px]">
           In Short: We do not knowingly collect data from or market to children under 18 years of age.<br /><br />
 
-          We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at {privacyPolicy.email}.<br /><br />
+          We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent&apos;s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at {privacyPolicy.email}.<br /><br />
         </p>
 
         <h3 className="mt-[100px] md:text-[2.5rem] text-[2rem] text-gray">8. WHAT ARE YOUR PRIVACY RIGHTS?</h3>
         <p className="mt-[10px] text-[24px]">
           In Short: In some regions, such as Canada, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time.<br /><br />
 
-          In some regions (like Canada), you have certain rights under applicable data protection laws. These may include the right to request access and obtain a copy of your personal information, to request rectification or erasure; to restrict the processing of your personal information; if applicable, to data portability; and not to be subject to automated decision-making. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?" below.<br /><br />
+          In some regions (like Canada), you have certain rights under applicable data protection laws. These may include the right to request access and obtain a copy of your personal information, to request rectification or erasure; to restrict the processing of your personal information; if applicable, to data portability; and not to be subject to automated decision-making. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section &apos;HOW CAN YOU CONTACT US ABOUT THIS NOTICE?&apos; below.<br /><br />
 
           We will consider and act upon any request in accordance with applicable data protection laws.<br /><br />
 
-          Withdrawing your consent: If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?" below.<br /><br />
+          Withdrawing your consent: If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section &apos;HOW CAN YOU CONTACT US ABOUT THIS NOTICE?&apos; below.<br /><br />
 
           However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.<br /><br />
 
-          Opting out of marketing and promotional communications: You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, replying "STOP" or "UNSUBSCRIBE" to the SMS messages that we send, or by contacting us using the details provided in the section "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?" below. You will then be removed from the marketing lists. However, we may still communicate with you — for example, to send you service-related messages that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes.<br /><br />
+          Opting out of marketing and promotional communications: You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, replying &apos;STOP&apos; or &apos;UNSUBSCRIBE&apos; to the SMS messages that we send, or by contacting us using the details provided in the section &apos;HOW CAN YOU CONTACT US ABOUT THIS NOTICE?&apos; below. You will then be removed from the marketing lists. However, we may still communicate with you — for example, to send you service-related messages that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes.<br /><br />
 
           Account Information<br /><br />
 
@@ -203,14 +203,14 @@ export default function Home() {
 
         <h3 className="mt-[100px] md:text-[2.5rem] text-[2rem] text-gray">9. CONTROLS FOR DO-NOT-TRACK FEATURES</h3>
         <p className="mt-[10px] text-[24px]">
-          Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.
+          Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (&apos;DNT&apos;) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.
         </p>
 
         <h3 className="mt-[100px] md:text-[2.5rem] text-[2rem] text-gray">10. DO WE MAKE UPDATES TO THIS NOTICE?</h3>
         <p className="mt-[10px] text-[24px]">
           In Short: Yes, we will update this notice as necessary to stay compliant with relevant laws.
 
-          We may update this privacy notice from time to time. The updated version will be indicated by an updated "Revised" date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
+          We may update this privacy notice from time to time. The updated version will be indicated by an updated &apos;Revised&apos; date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
         </p>
 
         <h3 className="mt-[100px] md:text-[2.5rem] text-[2rem] text-gray">11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h3>
