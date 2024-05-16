@@ -1,5 +1,5 @@
 "use server"
-import { EmailTemplate } from '@/components/ui/customUI/email-template';
+import ContactFormEmail from '@/email/ContactFormEmail';
 import { formSchema } from '@/lib/formSchema';
 import { Resend } from 'resend';
 import { z } from 'zod';
@@ -17,8 +17,7 @@ export async function sendEmail(formData: ContactFormUserInputs) {
                 from: 'MLV Web <newrequest@mlvweb.com>',
                 to: ['info.mlvweb@gmail.com'],
                 subject: 'New Request from MLV Web',
-                text: '',
-                react: EmailTemplate({ fullName, email, phoneNumber, industry, description }),
+                react: ContactFormEmail({ fullName, email, phoneNumber, industry, description }),
             });
             return { success: true, data };
         } catch (error) {
