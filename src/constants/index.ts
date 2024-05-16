@@ -46,7 +46,7 @@ export const portfolioSection = {
         title: "RenoMotion",
         paragraph: "Website designed for Renomotion Inc., specializing in transforming bathrooms, basements, and kitchens with innovative designs and quality craftsmanship",
         btnText: "Visit website",
-        btnUrl: "https://www.renomotion.ca/",
+        btnUrl: "https://renomotion.mlvweb.com/",
         description: [
             {
                 text: "(Landing Page Development)"
@@ -224,7 +224,7 @@ export const contactUsForm = {
             btnText: "Mail",
             alt: "Contact us via Mail",
             width: "w-[130px]",
-            href: "mailto: test@gmail.com"
+            href: "mailto: info.mlvweb@gmail.com"
         },
     ],
     inputFields: [
@@ -254,11 +254,11 @@ export const contactUsForm = {
 
 export const footer = {
     title: "MLV Web",
-    email: "test@gmail.com",
+    email: "info.mlvweb@gmail.com",
 }
 
 export const privacyPolicy = {
     nameOfCompany: "MLV Web Inc.",
-    email: "mlvweb@gmail.com",
+    email: "info.mlvweb@gmail.com",
     urlToHomePage: "https://www.mlvweb.com",
 }

@@ -15,34 +15,15 @@ import {
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
-
 import Image from "next/image"
 
 import { contactUsForm } from "@/constants"
 
 import Link from "next/link"
+import { sendEmail } from "@/app/sendEmail"
 
-const formSchema = z.object({
-    fullName:
-        z.string()
-            .min(2, { message: 'Name must be at least 2 characters long' })
-            .max(30, { message: 'Name must be at most 30 characters long' }),
-    email:
-        z.string()
-            .email('Invalid email address'),
-    phoneNumber:
-        z.string()
-            .min(10, { message: 'Phone number must be at least 10 numbers long' })
-            .max(14, { message: 'Phone number must be at most 14 numbers long' })
-            .regex(/^\+?\d+$/, { message: 'Phone number must contain only numbers' }),
-    industry:
-        z.string()
-            .max(50, { message: 'Industry must be at most 50 characters long' }),
-    description:
-        z.string()
-            .max(500, { message: 'Description must be at most 500 characters long' }),
-    isPrivacyPolicy: z.boolean().default(false),
-})
+import { formSchema } from "@/lib/formSchema";
+
 
 export default function ContactUsForm() {
 
@@ -57,10 +38,18 @@ export default function ContactUsForm() {
         },
     })
 
-    function onSubmit(values: z.infer<typeof formSchema>) {
-        // Do something with the form values.
+    async function onSubmit(values: z.infer<typeof formSchema>) {
         // ✅ This will be type-safe and validated.
-        console.log(values)
+        const result = await sendEmail(values);
+
+        if (result?.success) {
+            console.log('Email sent successfully');
+            //reset form
+            return
+        }
+
+        console.log(result?.error);
+        console.log('Email not sent');
     }
 
 
