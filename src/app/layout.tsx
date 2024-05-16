@@ -7,8 +7,11 @@ import { Toaster } from "@/components/ui/toaster"
 
 
 export const metadata: Metadata = {
-  title: "Web agency",
-  description: "Web agency that makes custom websites",
+  title: "MLV Web agency",
+  description: "Web agency that makes custom websites for Canada and US",
+  twitter: {
+    card: "summary_large_image",
+  }
 };
 
 export default function RootLayout({

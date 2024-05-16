@@ -1,4 +1,13 @@
+import type { Metadata } from "next";
 import { privacyPolicy } from "@/constants";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "Privacy policy for MLV Web Inc.",
+  twitter: {
+    card: "summary_large_image",
+  },
+};
 
 export default function Home() {
   return (
