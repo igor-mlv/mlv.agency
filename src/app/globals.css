@@ -46,3 +46,9 @@ p {
 .formInputText {
   @apply font-interTight font-light text-[1.125rem] leading-[120%] text-white
 }
+
+/* This is for safari browser, safari do not support backdrop from tailwind */
+.navBarBlur {
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+}

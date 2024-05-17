@@ -6,7 +6,7 @@ import { Button } from "../../ui/button";
 export default function NavBar() {
     return (
         <nav className="fixed w-full z-50 top-[25px] start-0 px-2 ">
-            <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto md:px-[40px] px-[20px] md:py-[16px] py-[8px] bg-stone-50/5 rounded-[38px] border border-neutral-500 backdrop-blur-lg border-collapse">
+            <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto md:px-[40px] px-[20px] md:py-[16px] py-[8px] bg-stone-50/5 rounded-[38px] border border-neutral-500 backdrop-blur-lg navBarBlur  border-collapse">
 
                 <Link href="/#hero">
                     <Image

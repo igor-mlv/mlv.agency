@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter_Tight, Varela_Round } from '@next/font/google';
+import { Inter_Tight, Varela_Round } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/sections/NavBar/NavBar";
 import Footer from "@/components/sections/Footer/Footer";
