@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
     return (
-        <section id="hero" className="relative flex md:flex-row flex-col md:justify-between justify-end mt-[130px] h-[90dvh] max-h-[700px]  items-center px-4 md:pb-[0px] pb-[60px]">
+        <section id="hero" className="relative flex md:flex-row flex-col md:justify-between justify-end mt-[130px] h-[80vh] max-h-[700px]  items-center px-4 md:pb-[0px] pb-[60px]">
             <div className="flex flex-col md:justify-center items-start">
                 <h1 className="md:max-w-[1180px] w-full text-left z-10">{heroSection.title}</h1>
                 <Button asChild

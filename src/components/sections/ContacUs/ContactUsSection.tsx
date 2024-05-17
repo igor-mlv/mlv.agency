@@ -1,6 +1,7 @@
 import { contactUsSection } from "@/constants"
 import parse from 'html-react-parser';
 import ContactUsForm from "@/components/ui/customUI/ContactUsForm"
+import Image from "next/image";
 
 export default function ContactUsSection() {
     return (
@@ -12,7 +13,12 @@ export default function ContactUsSection() {
                 <ContactUsForm />
             </div>
 
-            <div className="absolute w-[370px] h-[370px] top-[-0px] left-[-350px] opacity-20 bg-violet rounded-full blur-[70px] z-0" />
+            <Image
+                width={770}
+                height={770}
+                src="/assets/vectorCercle.png"
+                alt="general vector for mlv web agency that makes custom websites for Canada and US"
+                className="absolute md:top-[-100px] top-[-000px] md:left-[-450px] left-[-200px] z-0 opacity-70" />
         </section>
     )
 }           

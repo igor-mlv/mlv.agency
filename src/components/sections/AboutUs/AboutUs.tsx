@@ -7,8 +7,6 @@ export default function AboutUs() {
 
     return (
         <section id="aboutUs" className="relative flex flex-col justify-between items-start pt-[100px] md:px-0 px-2 ">
-            <div className=" absolute w-[426px] h-[426px] top-0 left-[-150px] opacity-20 bg-violet rounded-full blur-[60px] z-0" />
-
             <h2 className="z-10 px-2">{aboutUsSection.title}</h2>
 
             <div className="w-full md:h-[590px] md:mt-[60px] mt-[32px] md:grid md:grid-cols-3 md:grid-rows-2 md:gap-x-[20px] md:gap-y-[28px] z-10 flex flex-col md:space-y-0 space-y-[16px]">
@@ -50,6 +48,15 @@ export default function AboutUs() {
                 </div>
 
             </div>
+
+            <Image
+                width={570}
+                height={570}
+                src="/assets/vectorCercle.png"
+                alt="general vector for mlv web agency that makes custom websites for Canada and US"
+                className="absolute w-[570px] h-[570px] top-[-100px] left-[-250px] z-0" />
+
+
         </section>
     );
 }

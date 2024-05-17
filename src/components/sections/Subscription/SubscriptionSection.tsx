@@ -1,4 +1,5 @@
 import { subscriptionSection } from "@/constants"
+import Image from "next/image"
 
 export default function SubscriptionSection() {
     return (
@@ -26,7 +27,12 @@ export default function SubscriptionSection() {
                 ))}
             </div>
 
-            <div className="absolute w-[470px] h-[470px] top-[-100px] right-[-350px] opacity-20 bg-violet rounded-full blur-[70px] z-0" />
+            <Image
+                width={570}
+                height={570}
+                src="/assets/vectorCercle.png"
+                alt="general vector for mlv web agency that makes custom websites for Canada and US"
+                className="absolute md:top-[-100px] top-[50px] md:right-[-350px] right-[-250px] z-0 opacity-80" />
         </section>
     )
 }

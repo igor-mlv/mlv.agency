@@ -5,9 +5,9 @@ import Link from "next/link";
 
 export default function PortfolioSection() {
     return (
-        <section id="portfolio" className="flex flex-col mt-[150px] px-2">
-            <h2>{portfolioSection.title}</h2>
-            <div className="relative w-full flex md:flex-row flex-col md:justify-between justify-center bg-[url('/assets/portfolioSection/ContainerBG.png')] bg-cover rounded-[24px] md:mt-[60px] mt-[32px] md:p-[24px] p-[8px]">
+        <section id="portfolio" className="relative flex flex-col mt-[150px] px-2">
+            <h2 className="z-10">{portfolioSection.title}</h2>
+            <div className="relative w-full flex md:flex-row flex-col md:justify-between justify-center bg-[url('/assets/portfolioSection/ContainerBG.png')] bg-cover rounded-[24px] md:mt-[60px] mt-[32px] md:p-[24px] p-[8px] z-10">
                 <div className="w-full max-w-[820px] md:h-[502px] h-[216px] flex justify-center items-center bg-[url('/assets/portfolioSection/PhotoBG.png')] bg-cover md:rounded-[24px] rounded-[16px] z-10">
                     <Image
                         width={532}
@@ -37,18 +37,22 @@ export default function PortfolioSection() {
                         ))}
                     </div>
                 </div>
-
-                <div className=" absolute w-[570px] h-[570px] top-[-200px] right-[-300px] opacity-20 bg-violet rounded-full blur-[100px] z-0" />
-
-                <div className=" absolute top-[-300px] left-[-400px] ">
-                    <Image
-                        width={590}
-                        height={635}
-                        src="/assets/portfolioSection/neonRectangle.svg"
-                        alt="neonRectangle"
-                    />
-                </div>
             </div>
+
+            <Image
+                width={600}
+                height={600}
+                src="/assets/vectorCercle.png"
+                alt="general vector for mlv web agency that makes custom websites for Canada and US"
+                className="absolute md:top-[-200px] top-[-150px] md:left-[-300px] left-[-200px]  z-0 opacity-80" />
+
+            <Image
+                width={700}
+                height={700}
+                src="/assets/vectorCercle.png"
+                alt="general vector for mlv web agency that makes custom websites for Canada and US"
+                className="absolute md:bottom-[-0px] bottom-[-200px] md:right-[-500px] right-[-200px] z-0 opacity-80" />
+
         </section>
     );
 }

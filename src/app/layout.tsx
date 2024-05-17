@@ -22,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <meta property="og:image" content="src/app/og-image.png" />
         <div className="flex justify-center w-full overflow-hidden min-w-[380px] bg-[#111113]">
           <div className="w-full max-w-[1280px]">
             <NavBar />

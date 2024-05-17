@@ -1,6 +1,7 @@
 import { servicesSection } from "@/constants";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ServicesSection() {
     return (
@@ -43,7 +44,14 @@ export default function ServicesSection() {
                 ))}
             </div>
 
-            <div className="absolute w-[470px] h-[270px] top-[-0px] left-[-350px] opacity-20 bg-violet rounded-full blur-[70px] z-0" />
+            <Image
+                width={570}
+                height={570}
+                src="/assets/vectorCercle.png"
+                alt="general vector for mlv web agency that makes custom websites for Canada and US"
+                className="absolute md:top-[-150px] top-[-170px] md:left-[-250px] left-[-220px] z-0 opacity-80" />
+
+
         </section>
     );
 }
