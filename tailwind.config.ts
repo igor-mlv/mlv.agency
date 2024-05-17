@@ -16,9 +16,8 @@ const config: Config = {
       xl: "1700px",
     },
     fontFamily: {
-      varelaRound: ["Varela Round", "sans-serif"],
-      interTight: ["Inter Tight", "sans-serif"],
-      varelaRegular: ["Varela", "sans-serif"],
+      varelaRound: ['var(--font-varela-round)', 'sans-serif'],
+      interTight: ['var(--font-inter-tight)', 'sans-serif'],
     },
     fontWeight: {
       normal: '400',
