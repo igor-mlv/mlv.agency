@@ -26,8 +26,12 @@ import { sendEmail } from "@/app/sendEmail"
 
 import { formSchema } from "@/lib/formSchema";
 
+import { useState } from "react"
+
 
 export default function ContactUsForm() {
+
+    const [isFormSubmitting, setFormIsSubmitting] = useState(false);
 
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
@@ -43,7 +47,7 @@ export default function ContactUsForm() {
     const { toast } = useToast();
 
     async function onSubmit(values: z.infer<typeof formSchema>) {
-        // ✅ This will be type-safe and validated.
+        setFormIsSubmitting(true);
         const result = await sendEmail(values);
 
         if (result?.success) {
@@ -52,6 +56,7 @@ export default function ContactUsForm() {
                 description: "We will be in touch with you shortly.",
             });
             form.reset();
+            setFormIsSubmitting(false);
             return;
         }
 
@@ -59,6 +64,8 @@ export default function ContactUsForm() {
             title: "Uh oh! Something went wrong 😱",
             description: "Please try again later.",
         });
+
+        setFormIsSubmitting(false);
     }
 
 
@@ -139,7 +146,8 @@ export default function ContactUsForm() {
                             type="submit"
                             variant="default"
                             className="bg-violet w-[260px] h-[45px] md:px-[60px] px-[24px] rounded-[55px] z-30 hover:border-[2px] transition-all duration-500 border-violet button">
-                            {contactUsForm.btnText}
+                            {(!isFormSubmitting) ? contactUsForm.btnText : "Sending..."}
+
                         </Button>
                     </div>
 
