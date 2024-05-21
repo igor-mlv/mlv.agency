@@ -41,7 +41,7 @@ export const aboutUsSection = {
 };
 
 export const portfolioSection = {
-    title: "Latest roject",
+    title: "Latest project",
     project: {
         title: "RenoMotion",
         paragraph: "Website designed for Renomotion Inc., specializing in transforming bathrooms, basements, and kitchens with innovative designs and quality craftsmanship",
