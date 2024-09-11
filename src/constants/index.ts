@@ -41,27 +41,49 @@ export const aboutUsSection = {
 };
 
 export const portfolioSection = {
-    title: "Latest project",
-    project: {
-        title: "RenoMotion",
-        paragraph: "Website designed for Renomotion Inc., specializing in transforming bathrooms, basements, and kitchens with innovative designs and quality craftsmanship",
-        btnText: "Visit website",
-        btnUrl: "https://renomotion.mlvweb.com/",
-        description: [
-            {
-                text: "(Landing Page Development)"
-            },
-            {
-                text: "(Two weeks)"
-            },
-            {
-                text: "(Fully Managed Hosting)"
-            },
-        ],
-        portfolioImgUrl: "/assets/portfolioSection/Portfolio.png",
-        photoBGImgUrl: "/assets/portfolioSection/PhotoBG.png",
-        containerBGImgUrl: "/assets/portfolioSection/ContainerBG.png",
-    },
+    title: "Latest projects",
+    projects: [
+        {
+            title: "RenoMotion",
+            paragraph: "Website designed for Renomotion Inc., specializing in transforming bathrooms, basements, and kitchens with innovative designs and quality craftsmanship",
+            btnText: "Visit website",
+            btnUrl: "https://renomotion.mlvweb.com/",
+            description: [
+                {
+                    text: "(Landing Page Package)"
+                },
+                {
+                    text: "(Two weeks)"
+                },
+                {
+                    text: "(Fully Managed Hosting)"
+                },
+            ],
+            portfolioImgUrl: "/assets/portfolioSection/Portfolio.png",
+            photoBGImgUrl: "/assets/portfolioSection/PhotoBG.png",
+            containerBGImgUrl: "/assets/portfolioSection/ContainerBG.png",
+        },
+        {
+            title: "PizzaHub",
+            paragraph: "Built an e-commerce site for Pizza Hub, providing an easy-to-use platform for customizing pizzas, secure payments, and storing user info.",
+            btnText: "Visit website",
+            btnUrl: "https://pizza-hub.mlvweb.com/",
+            description: [
+                {
+                    text: "(E-commerce Website Package)"
+                },
+                {
+                    text: "(Two months)"
+                },
+                {
+                    text: "(Pro Plan with SEO Optimization)"
+                },
+            ],
+            portfolioImgUrl: "/assets/portfolioSection/Portfolio.png",
+            photoBGImgUrl: "public/assets/portfolioSection/pizza-hub/PhotoBG.png",
+            containerBGImgUrl: "/assets/portfolioSection/ContainerBG.png",
+        },
+    ],
 }
 
 export const workStagesSection = {
