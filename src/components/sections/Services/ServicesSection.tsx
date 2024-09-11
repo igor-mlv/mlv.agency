@@ -29,7 +29,7 @@ export default function ServicesSection() {
 
                         <div className="absolute bottom-0 left-0 w-full">
                             <div className="md:flex justify-center opacity-0 md:group-hover:opacity-100 transition-all duration-1000">
-                                <Button
+                                <Button asChild
                                     variant="default"
                                     className="bg-violet md:w-[260px] w-[156px] h-[45px] md:px-[60px] px-[24px] md:my-[45px] my-[16px] rounded-[55px] z-30 hover:border-[2px] transition-all duration-500 border-violet button">
                                     <Link href="#contact">
