@@ -134,36 +134,38 @@ export const servicesSection = {
             id: 1,
             title: "Landing Page Package",
             startsFrom: "Starts From",
-            price: "$2490",
+            price: "$990",
             list: [
-                "Development of one web page",
-                "Responsive design for mobile compatibility",
-                "Basic SEO optimization",
+                "Responsive design",
+                "Development of a custom landing page",
+                "Fast-loading and optimized for performance",
             ]
         },
         {
             id: 2,
             title: "Basic Website Package",
             startsFrom: "Starts From",
-            price: "$4990",
+            price: "$1990",
             list: [
-                "Development of multiple web pages",
-                "Responsive design for mobile compatibility",
-                "Basic SEO optimization",
+                "Responsive design",
+                "Development of a custom landing page",
+                "Fast-loading and optimized for performance",
+                "Basic SEO optimization for better search engine ranking",
+                "Integration with contact forms and social media links",
+                "Up to 5 pages including Home, About, and Services"
             ]
         },
         {
             id: 3,
             title: "E-commerce Website Package",
             startsFrom: "Starts From",
-            price: "$7990",
+            price: "$3990",
             list: [
-                "Custom design and development tailored to e-commerce needs",
-                "Responsive design for mobile compatibility",
-                "Advanced e-commerce features such as product catalog, shopping cart, and checkout system",
+                "All features included in the Basic Website Package",
+                "Advanced e-commerce functionality, including product catalog, shopping cart, and checkout system",
                 "Integration of secure payment gateways",
-                "Product management system for easy inventory management",
-                "Enhanced SEO optimization for product pages",
+                "Admin panel for easy inventory management",
+                "Enhanced SEO optimization for individual product pages",
             ]
         },
     ],

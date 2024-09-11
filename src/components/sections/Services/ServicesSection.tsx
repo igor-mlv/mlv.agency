@@ -8,15 +8,15 @@ export default function ServicesSection() {
         <section id="services" className="relative flex flex-col mt-[150px] px-2">
             <h2 className="z-10">{servicesSection.title}</h2>
 
-            <div className="relative md:mt-[60px] mt-[32px] w-full md:h-[650px] h-auto flex justify-center items-center md:flex-row flex-col md:space-x-[24px] md:space-y-0 space-y-[16px] ">
+            <div className="relative md:mt-[60px] mt-[32px] w-full md:h-[650px] h-auto flex justify-center items-center md:flex-row flex-col md:space-x-[24px] md:space-y-0 space-y-[16px] z-10">
                 {servicesSection.cards.map((card) => (
                     <div key={card.id} className="group relative md:w-[410px] w-full md:h-[590px] h-auto md:hover:h-[645px] md:px-[20px] md:py-[40px] p-[24px] bg-[#FAF6F6] bg-opacity-[5%] rounded-[24px] border-gray border-[2px] border-opacity-0 hover:border-opacity-100 transition-all duration-1000">
 
                         <div className="flex md:flex-col flex-row-reverse md:space-y-[24px] justify-center md:items-start items-center">
                             <h4 className="md:ml-0 ml-[24px] text-violet">{card.title}</h4>
                             <div>
-                                <h5>{card.startsFrom}</h5>
-                                <h2>{card.price}</h2>
+                                <h6 className="text-white">{card.startsFrom}</h6>
+                                <h2 className="md:text-[3rem] text-[2.5rem]">{card.price}</h2>
                             </div>
                         </div>
                         <ul className="list-disc text-gray md:mt-[24px] mt-[16px]">
