@@ -39,7 +39,7 @@ export default function AboutUs() {
                             height={485}
                             src={aboutUsSection.igorPhotoUrl}
                             alt={aboutUsSection.igorPhotoAlt}
-                            className="md:object-cover object-cover md:rounded-[12px] rounded-[16px] md:w-[364px] w-full md:h-[485px] h-[290px]"
+                            className="md:object-cover object-cover md:rounded-[12px] rounded-[16px] md:w-[364px] w-full md:h-[485px] h-[350px]"
                             unoptimized />
                     </div>
 

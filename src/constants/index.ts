@@ -25,7 +25,7 @@ export const heroSection = {
 export const aboutUsSection = {
     title: "About us",
     firstParagraph: {
-        text: "At <span className='text-violet'>MLV Web</span> Agency, we create unique websites from scratch.",
+        text: "At <span className='text-violet'>MLV Web</span> agency, we create unique websites from scratch.",
     },
     secondParagraph: {
         text: "We increase profits by introducing online marketing tools",
@@ -35,7 +35,7 @@ export const aboutUsSection = {
         text: "Our use of advanced technologies ensures optimal website performance.",
         iconUrl: "/assets/aboutUsSection/50PercentageIcon.svg",
     },
-    igorPhotoUrl: "/assets/aboutUsSection/IgorPicture.png",
+    igorPhotoUrl: "/assets/aboutUsSection/IgorPicture.jpg",
     igorPhotoTitle: "Founder <span className='text-violet'>Igor Malov</span>",
     igorPhotoAlt: "Founder Igor Malov",
 };
