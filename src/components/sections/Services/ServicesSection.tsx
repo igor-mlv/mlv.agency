@@ -12,12 +12,12 @@ export default function ServicesSection() {
                 {servicesSection.cards.map((card) => (
                     <div key={card.id} className="group relative md:w-[410px] w-full md:h-[590px] h-auto md:hover:h-[645px] md:px-[20px] md:py-[40px] p-[24px] bg-[#FAF6F6] bg-opacity-[5%] rounded-[24px] border-gray border-[2px] border-opacity-0 hover:border-opacity-100 transition-all duration-1000">
 
-                        <div className="flex md:flex-col flex-row-reverse md:space-y-[24px] justify-center md:items-start items-center">
+                        <div className="flex md:flex-col flex-row-reverse md:space-y-[24px] justify-center items-start">
                             <h4 className="md:ml-0 ml-[24px] text-violet">{card.title}</h4>
-                            <div>
+                            {/* <div>
                                 <h6 className="text-white">{card.startsFrom}</h6>
                                 <h2 className="md:text-[3rem] text-[2.5rem]">{card.price}</h2>
-                            </div>
+                            </div> */}
                         </div>
                         <ul className="list-disc text-gray md:mt-[24px] mt-[16px]">
                             {card.list.map((listItem, index) => (

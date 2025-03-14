@@ -36,8 +36,8 @@ export const aboutUsSection = {
         iconUrl: "/assets/aboutUsSection/50PercentageIcon.svg",
     },
     igorPhotoUrl: "/assets/aboutUsSection/IgorPicture.jpg",
-    igorPhotoTitle: "Founder <span className='text-violet'>Igor Malov</span>",
-    igorPhotoAlt: "Founder Igor Malov",
+    igorPhotoTitle: "Full Stack Developer <span className='text-violet'>Igor Malov</span>",
+    igorPhotoAlt: "Full Stack Developer Igor Malov",
 };
 
 export const portfolioSection = {
